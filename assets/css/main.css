@@ -3740,6 +3740,19 @@ input, select, textarea {
   z-index: 2;
 }
 
+/* Desktop */
+#banner.video-banner video {
+  object-fit: cover;
+}
+
+/* Mobile: keep aspect ratio */
+@media screen and (max-width: 736px) {
+  #banner.video-banner video {
+    object-fit: contain;
+    background: #000;
+  }
+}
+
 		@media screen and (max-width: 736px) {
 
 			#banner {
@@ -4033,6 +4046,7 @@ input, select, textarea {
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
+
 
 
 
