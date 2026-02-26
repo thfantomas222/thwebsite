@@ -1762,7 +1762,7 @@ input, select, textarea {
 /* Section/Article */
 
 	section.special, article.special {
-		text-align: justify;
+		text-align: center;
 	}
 
 	header p {
@@ -3588,7 +3588,7 @@ input, select, textarea {
 		min-height: 35em;
 		overflow: hidden;
 		position: relative;
-		text-align: justify;
+		text-align: center;
 	}
 
 		#banner h2 {
@@ -4004,6 +4004,7 @@ input, select, textarea {
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
+
 
 
 
