@@ -3711,6 +3711,35 @@ input, select, textarea {
 			opacity: 0;
 		}
 
+#banner.video-banner {
+  position: relative;
+  overflow: hidden;
+}
+
+#banner.video-banner video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  transform: translate(-50%, -50%);
+  object-fit: cover;
+  z-index: 0;
+}
+
+#banner.video-banner .video-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.45);
+  z-index: 1;
+}
+
+#banner.video-banner .inner,
+#banner.video-banner .more {
+  position: relative;
+  z-index: 2;
+}
+
 		@media screen and (max-width: 736px) {
 
 			#banner {
@@ -4004,6 +4033,7 @@ input, select, textarea {
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
+
 
 
 
