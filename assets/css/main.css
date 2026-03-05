@@ -94,6 +94,14 @@ input, select, textarea {
     border-bottom: none;
 }
 
+.lang-switch a {
+    opacity: 0.6;
+}
+
+.lang-switch a.active {
+    opacity: 1;
+}
+
 /* Basic */
 
 	@-ms-viewport {
@@ -4061,6 +4069,7 @@ input, select, textarea {
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
+
 
 
 
