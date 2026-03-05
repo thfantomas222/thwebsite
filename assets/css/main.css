@@ -79,16 +79,18 @@ input, select, textarea {
 	appearance: none;
 }
 
+.lang-switch {
+    position: absolute;
+    top: 20px;
+    right: 120px;
+    font-family: inherit;
+    font-size: 0.8em;
+    letter-spacing: 0.225em;
+    text-transform: uppercase;
+}
+
 .lang-switch a {
     text-decoration: none;
-    margin: 0 4px;
-    font-weight: 600;
-					color: #fff;
-						display: block;
-						font-size: 0.8em;
-						letter-spacing: 0.225em;
-						padding: 0 1.5em;
-						text-transform: uppercase;
     border-bottom: none;
 }
 
@@ -4059,6 +4061,7 @@ input, select, textarea {
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
+
 
 
 
